@@ -1,0 +1,87 @@
+.main__check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 35px;
+}
+
+.main__check-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.main__check-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.main__check-desc-person, .main__check-desc-doctor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main__list-recepies {
+  margin-top: 36px;
+}
+
+.main__list-recepies-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.check-desc-person, .check-desc-doctor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.check-desc-person__title, .check-desc-doctor__title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.check-desc-person-wrap, .check-desc-doctor-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.check-desc-person__info, .check-desc-doctor__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 30px;
+}
+
+.check-desc-person__info-title, .check-desc-doctor__info-title {
+  font-size: 14px;
+  color: #ADADAD;
+  height: 35px;
+}
+
+.check-desc-person__info-title.long, .check-desc-doctor__info-title.long {
+  max-width: 402px;
+}
+/*# sourceMappingURL=check.css.map */

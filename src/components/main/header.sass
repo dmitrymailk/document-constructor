@@ -1,0 +1,119 @@
+body
+  font-family: Arial
+  
+.header
+  display: flex
+  height: 162px
+  width: 100%
+  box-shadow: 14px 4px 41px rgba(120, 158, 255, 0.17)
+  justify-content: flex-start
+  flex-direction: column
+  align-items: center
+  &__logo-account
+    display: flex
+    width: calc(100% - 270px)
+    position: relative
+    margin-top: 21px
+    height: 54px
+  &__navbar
+    width: calc(100% - 270px)
+    margin-top: 41px
+    display: flex
+  
+.logo-account
+  &__logo
+    display: flex
+    position: absolute
+    left: 0
+    align-items: center
+    cursor: pointer
+    &-img
+      display: flex
+      justify-content: center
+      align-items: center
+      border-radius: 20px
+      height: 54px
+      width: 54px
+      background-color: #05C4F4
+      box-shadow: 0px 0px 10px 0px rgba(5,196,244,0.42)
+      opacity: 0.98
+    &-text
+      margin-left: 26px
+      font-weight: 600
+      font-family: Arial
+      text-transform: uppercase
+  &__account
+    display: flex
+    position: absolute
+    right: 0
+    align-items: center
+    &-img
+      display: flex
+      justify-content: center
+      align-items: center
+      border-radius: 23px
+      height: 54px
+      width: 54px
+      background-color: #05C4F4
+    &-text
+      margin-left: 26px
+      font-weight: 500
+      font-family: Arial
+      max-width: 120px
+      display: flex
+
+.navbar
+  &__item
+    width: 124px
+    display: flex
+    align-items: center 
+    margin-right: auto
+    cursor: pointer
+    border-bottom: 2px solid #ffffff
+    path
+      fill: #999999
+    &-text
+      margin-left: 10px
+      font-weight: 500
+      color: #999999
+  &__item:hover
+    border-bottom: 2px solid #05c4f4
+    path
+      fill: #05c4f4
+    span
+      color: #05c4f4
+  &__item:last-child
+      margin-right: 0
+      
+
+    
+
+
+
+
+@media (max-width: 1024px)
+  .header
+    &__logo-account
+      width: calc(100% - 80px)
+    &__navbar
+      width: calc(100% - 80px)
+
+@media (max-width: 768px)
+  .header
+    height: 233px
+    &__navbar
+      flex-wrap: wrap
+      align-content: center
+
+  .navbar
+    &__item
+      margin-top: 16px
+      width: 33%
+      min-width: 177px
+      &:hover
+        border-bottom: 2px solid #ffffff
+    
+
+
+
+

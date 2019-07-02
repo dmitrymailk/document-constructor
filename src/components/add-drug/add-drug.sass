@@ -1,0 +1,268 @@
+.main
+  &__add-drug
+    display: flex
+    flex-direction: column
+    margin-top: 50px
+  
+.add-drug
+  &__item
+    &-order
+      font-size: 24px
+      font-weight: bold
+      margin-right: 36px
+    &-new
+      display: flex
+      &-button
+        border: 2px solid #05C4F4
+        box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44)
+        border-radius: 16px
+        background: rgba(0,0,0,0)
+        width: 364px
+        height: 46px
+        outline: none !important
+  &__form
+    display: flex
+    margin-bottom: 50px
+    &-body
+      width: 606px
+      height: 313px
+      box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.17)
+      border-radius: 16px
+      display: flex
+      flex-direction: column
+
+.form-body
+  &__title
+    font-size: 24px
+    margin: 10px 0 0 29px
+    font-weight: 600
+  &__drug
+    margin: 20px 0 0 29px
+    display: flex
+    flex-direction: column
+    position: relative
+    &-name
+      font-size: 14px
+    &-wrap
+      display: flex
+      margin-top: 8px
+    &-input
+      border: 1px solid #DADADA
+      box-sizing: border-box
+      border-radius: 18px
+      width: 485px
+      height: 46px
+      outline: none !important
+      padding-left: 16px
+    &-search
+      border: 2px solid #05C4F4
+      box-sizing: border-box
+      box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44)
+      border-radius: 18px
+      height: 46px
+      width: 59px
+      margin-left: 9px
+      background: #ffffff
+      outline: none !important
+    &-info
+      display: flex
+      margin-top: 19px
+    &-danger
+      font-size: 16px
+      color: #D41A1A
+      margin-top: 22px
+      display: flex
+    &-add
+      position: absolute
+      font-size: 21px
+      color: #FFFFFF
+      box-shadow: 0px 0px 4px rgba(5, 196, 244, 0.44)
+      width: 201px
+      height: 46px
+      background: #05c4f4
+      border-radius: 18px
+      bottom: -15px
+      right: 22px
+      border: none
+      outline: none !important
+
+
+
+.drug-info
+  &__schedule
+    display: flex
+    flex-direction: column
+    &-name
+      font-size: 14px
+    &-input
+      margin-top: 8px
+      width: 168px
+      height: 46px
+      padding-left: 16px
+      border: 1px solid #DADADA
+      box-sizing: border-box
+      border-radius: 18px
+      outline: none !important
+  &__period
+    display: flex
+    flex-direction: column
+    margin-left: 25px
+    &-name
+      font-size: 14px
+    &-input
+      margin-top: 8px
+      width: 168px
+      height: 46px
+      padding-left: 16px
+      border: 1px solid #DADADA
+      box-sizing: border-box
+      border-radius: 18px
+      outline: none !important
+  &__price
+    display: flex
+    flex-direction: column
+    margin-left: 25px
+    &-name
+      font-size: 14px
+    &-input
+      margin-top: 8px
+      width: 168px
+      height: 46px
+      padding-left: 16px
+      border: 1px solid #DADADA
+      box-sizing: border-box
+      border-radius: 18px
+      outline: none !important
+
+    
+.main
+  &__popup-search
+    // position: absolute
+    // top: 0
+    // left: 0
+    // width: 100%
+    // height: 100%
+    // background: rgba(0,0,0, .5)
+    display: flex
+    justify-content: center
+    align-items: center
+    // display: none
+    &-wrap
+      width: 786px
+      height: 514px
+      background: #ffffff
+      display: flex
+      flex-direction: column
+      border-radius: 18px
+      position: relative
+    &-close
+      position: absolute
+      right: 16px
+      top: 16px
+      outline: none !important
+
+.popup-search
+  &__title
+    width: 380px
+    font-size: 24px
+    font-weight: 700
+    margin: 31px 0 0 36px
+  &__form
+    margin: 12px 0 0 36px
+    position: relative
+    display: flex
+    width: 423px
+    align-items: center
+    &-input
+      position: relative
+      background: #e6f9fe
+      border-radius: 16px
+      width: 423px
+      height: 46px
+      border: none
+      outline: none
+      padding-left: 16px
+    &-img
+      position: absolute
+      right: 25px
+      cursor: pointer
+      display: block
+  &__pop-results
+    overflow-x: scrollr
+    height: 250px
+    margin: 26px 0 0 36px
+    &-item
+      height: 38px
+      position: relative
+      display: flex
+      padding-left: 14px
+      align-items: center
+      max-width: 300px
+      border: 2px solid #ffffff
+      box-sizing: border-box
+      border-radius: 16px
+      cursor: pointer
+      margin-bottom: 14px
+      &.active
+        border: 2px solid #05C4F4
+        box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44)
+        .pop-results-item__img
+          display: block
+      &:hover
+        background: #f4f7f9
+        .pop-results-item__img
+          display: block
+  &__submit
+    align-self: center
+    font-size: 21px
+    color: #FFFFFF
+    box-shadow: 0px 0px 4px rgba(5, 196, 244, 0.44)
+    width: 176px
+    height: 46px
+    background: #05c4f4
+    border-radius: 18px
+    border: none
+    outline: none !important
+
+    
+.pop-results-item
+  &__img
+    position: absolute
+    right: 14px
+    display: none
+
+
+.fix-bootsrap
+  margin: auto
+  margin-top: 20vh
+
+
+
+.add-drug
+  
+  &__list-item
+    display: flex
+    margin-bottom: 45px
+    &-order
+      font-size: 24px
+      font-weight: bold
+      margin-right: 36px
+    &-info
+      display: flex
+  
+.list-item-info
+  &__title
+    display: flex
+    flex-direction: column
+    margin-right: 35px
+    &-name
+      font-size: 12px
+      line-height: 14px
+      color: #ADADAD
+
+
+
+
+
+        
+

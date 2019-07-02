@@ -1,0 +1,20 @@
+.main__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45px;
+}
+
+.main__section-img {
+  margin-left: 16px;
+}
+
+.main__section-title {
+  font-weight: 700;
+  font-size: 36px;
+  margin-left: 14px;
+}
+/*# sourceMappingURL=nameSection.css.map */

@@ -1,0 +1,399 @@
+.main__add-drug {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+.add-drug__item-order {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 36px;
+}
+
+.add-drug__item-new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.add-drug__item-new-button {
+  border: 2px solid #05C4F4;
+  -webkit-box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44);
+          box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44);
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0);
+  width: 364px;
+  height: 46px;
+  outline: none !important;
+}
+
+.add-drug__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.add-drug__form-body {
+  width: 606px;
+  height: 313px;
+  -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.17);
+          box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.17);
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-body__title {
+  font-size: 24px;
+  margin: 10px 0 0 29px;
+  font-weight: 600;
+}
+
+.form-body__drug {
+  margin: 20px 0 0 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.form-body__drug-name {
+  font-size: 14px;
+}
+
+.form-body__drug-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8px;
+}
+
+.form-body__drug-input {
+  border: 1px solid #DADADA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 18px;
+  width: 485px;
+  height: 46px;
+  outline: none !important;
+  padding-left: 16px;
+}
+
+.form-body__drug-search {
+  border: 2px solid #05C4F4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44);
+          box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44);
+  border-radius: 18px;
+  height: 46px;
+  width: 59px;
+  margin-left: 9px;
+  background: #ffffff;
+  outline: none !important;
+}
+
+.form-body__drug-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 19px;
+}
+
+.form-body__drug-danger {
+  font-size: 16px;
+  color: #D41A1A;
+  margin-top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-body__drug-add {
+  position: absolute;
+  font-size: 21px;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 4px rgba(5, 196, 244, 0.44);
+          box-shadow: 0px 0px 4px rgba(5, 196, 244, 0.44);
+  width: 201px;
+  height: 46px;
+  background: #05c4f4;
+  border-radius: 18px;
+  bottom: -15px;
+  right: 22px;
+  border: none;
+  outline: none !important;
+}
+
+.drug-info__schedule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.drug-info__schedule-name {
+  font-size: 14px;
+}
+
+.drug-info__schedule-input {
+  margin-top: 8px;
+  width: 168px;
+  height: 46px;
+  padding-left: 16px;
+  border: 1px solid #DADADA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 18px;
+  outline: none !important;
+}
+
+.drug-info__period {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 25px;
+}
+
+.drug-info__period-name {
+  font-size: 14px;
+}
+
+.drug-info__period-input {
+  margin-top: 8px;
+  width: 168px;
+  height: 46px;
+  padding-left: 16px;
+  border: 1px solid #DADADA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 18px;
+  outline: none !important;
+}
+
+.drug-info__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 25px;
+}
+
+.drug-info__price-name {
+  font-size: 14px;
+}
+
+.drug-info__price-input {
+  margin-top: 8px;
+  width: 168px;
+  height: 46px;
+  padding-left: 16px;
+  border: 1px solid #DADADA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 18px;
+  outline: none !important;
+}
+
+.main__popup-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__popup-search-wrap {
+  width: 786px;
+  height: 514px;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 18px;
+  position: relative;
+}
+
+.main__popup-search-close {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  outline: none !important;
+}
+
+.popup-search__title {
+  width: 380px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 31px 0 0 36px;
+}
+
+.popup-search__form {
+  margin: 12px 0 0 36px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 423px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popup-search__form-input {
+  position: relative;
+  background: #e6f9fe;
+  border-radius: 16px;
+  width: 423px;
+  height: 46px;
+  border: none;
+  outline: none;
+  padding-left: 16px;
+}
+
+.popup-search__form-img {
+  position: absolute;
+  right: 25px;
+  cursor: pointer;
+  display: block;
+}
+
+.popup-search__pop-results {
+  overflow-x: scrollr;
+  height: 250px;
+  margin: 26px 0 0 36px;
+}
+
+.popup-search__pop-results-item {
+  height: 38px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 300px;
+  border: 2px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+
+.popup-search__pop-results-item.active {
+  border: 2px solid #05C4F4;
+  -webkit-box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44);
+          box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44);
+}
+
+.popup-search__pop-results-item.active .pop-results-item__img {
+  display: block;
+}
+
+.popup-search__pop-results-item:hover {
+  background: #f4f7f9;
+}
+
+.popup-search__pop-results-item:hover .pop-results-item__img {
+  display: block;
+}
+
+.popup-search__submit {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 21px;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 4px rgba(5, 196, 244, 0.44);
+          box-shadow: 0px 0px 4px rgba(5, 196, 244, 0.44);
+  width: 176px;
+  height: 46px;
+  background: #05c4f4;
+  border-radius: 18px;
+  border: none;
+  outline: none !important;
+}
+
+.pop-results-item__img {
+  position: absolute;
+  right: 14px;
+  display: none;
+}
+
+.fix-bootsrap {
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.add-drug__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.add-drug__list-item-order {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 36px;
+}
+
+.add-drug__list-item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-item-info__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 35px;
+}
+
+.list-item-info__title-name {
+  font-size: 12px;
+  line-height: 14px;
+  color: #ADADAD;
+}
+/*# sourceMappingURL=add-drug.css.map */

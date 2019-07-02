@@ -1,0 +1,297 @@
+.main
+  &__search-document
+    display: flex
+    flex-direction: column
+    margin-top: 15px
+    // display: none
+  &__search-person
+    display: flex
+    flex-direction: column
+    margin-top: 15px
+    // display: none       
+
+
+.search-document
+  &__title
+    font-weight: 600
+    font-size: 24px
+  &__form
+    margin-top: 12px
+    position: relative
+    display: flex
+    width: 423px
+    height: 46px
+    align-items: center
+    &-input
+      position: absolute
+      background: #e6f9fe
+      border-radius: 16px
+      width: 423px
+      height: 46px
+      border: none
+      outline: none
+      padding-left: 16px
+      align-items: center
+    &-img
+      position: absolute
+      right: 9px
+      display: flex
+
+      cursor: pointer
+  &__results
+    margin-top: 43px
+    display: flex
+    overflow-x: scroll
+    overflow-y: hidden
+    position: relative
+    &-item
+      display: flex
+      width: 369px
+      min-height: 38px
+      border-radius: 16px
+      margin-right: 64px
+      align-items: center
+      position: relative
+      margin-bottom: 12px
+      cursor: pointer
+      min-width: 379px
+      border: 2px solid #ffffff
+    &-item.active
+      border: 2px solid #05c4f4
+      .results-item__img
+        display: flex
+    &-item:hover
+      background: #f4f7f9
+      .results-item__img
+        display: flex
+    &-group
+      display: flex
+      flex-direction: column
+    &::-webkit-scrollbar-corner
+      border-radius: 2px
+      backround: rgba(0,0,0,0)
+      box-shadow: rgba(0,0,0,0)
+    &::-webkit-scrollbar-thumb
+      border-radius: 10px
+      width: 15px
+      background: #05c4f4
+      cursor: pointer
+    &::-webkit-scrollbar
+      z-index: -1
+      width: 2px
+      height: 11px
+      border-radius: 2px
+      backround: rgba(0,0,0,0)
+      box-shadow: rgba(0,0,0,0)
+      cursor: pointer
+    &::-webkit-scrollbar-track
+      backround: rgba(0,0,0,0)
+      box-shadow: rgba(1,2,123,0)
+      cursor: pointer
+    &::-webkit-scrollbar-track-piece
+      backround: rgba(0,0,0,0)
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0)
+      cursor: pointer
+  &__submit
+    background: #05C4F4
+    box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44)
+    border-radius: 16px
+    font-size: 21px
+    color: #FFFFFF
+    text-shadow: 0px 0px 4px rgba(5, 196, 244, 0.44)
+    margin-top: 64px
+    width: 364px
+    height: 46px
+    align-self: center
+    cursor: pointer
+    border: none
+    outline: none
+
+
+
+
+
+.results-item
+  &__img
+    position: absolute
+    right: 14px
+    display: none
+    align-items: center
+  &__text
+    color: #323232
+    font-size: 16px
+    margin: 0 22px 0 13px
+
+
+.search-person
+  &__title
+    font-weight: 600
+    font-size: 24px
+  &__form
+    margin-top: 12px
+    position: relative
+    display: flex
+    width: 423px
+    align-items: center
+    height: 46px
+    &-input
+      position: absolute
+      background: #e6f9fe
+      border-radius: 16px
+      width: 423px
+      height: 46px
+      border: none
+      outline: none
+      padding-left: 16px
+    &-img
+      position: absolute
+      right: 25px
+      // top: 14px
+      cursor: pointer
+  &__results
+    margin-top: 26px
+    display: flex
+    overflow-x: scroll
+    overflow-y: hidden
+    position: relative
+    &-item
+      display: flex
+      width: 369px
+      min-height: 38px
+      border-radius: 16px
+      margin-right: 64px
+      // align-items: center
+      position: relative
+      margin-bottom: 12px
+      cursor: pointer
+      min-width: 379px
+      border: 2px solid #ffffff
+      flex-direction: column
+    &-item:hover
+      border: 2px solid #05c4f4
+      .results-item__head-img
+        display: block
+    &-item.active
+      border: 2px solid #05c4f4
+      .results-item__head-img
+        display: block
+    &-group
+      display: flex
+      flex-direction: column
+    &::-webkit-scrollbar-corner
+      border-radius: 2px
+      backround: rgba(0,0,0,0)
+      box-shadow: rgba(0,0,0,0)
+    &::-webkit-scrollbar-thumb
+      border-radius: 10px
+      width: 15px
+      background: #05c4f4
+      cursor: pointer
+    &::-webkit-scrollbar
+      z-index: -1
+      width: 2px
+      height: 11px
+      border-radius: 2px
+      backround: rgba(0,0,0,0)
+      box-shadow: rgba(0,0,0,0)
+      cursor: pointer
+    &::-webkit-scrollbar-track
+      backround: rgba(0,0,0,0)
+      box-shadow: rgba(1,2,123,0)
+      cursor: pointer
+    &::-webkit-scrollbar-track-piece
+      backround: rgba(0,0,0,0)
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0)
+      cursor: pointer
+  &__submit
+    background: #05C4F4
+    box-shadow: 0px 0px 15px rgba(5, 196, 244, 0.44)
+    border-radius: 16px
+    font-size: 21px
+    color: #FFFFFF
+    text-shadow: 0px 0px 4px rgba(5, 196, 244, 0.44)
+    margin-top: 64px
+    width: 364px
+    height: 46px
+    align-self: center
+    cursor: pointer
+    border: none
+    outline: none !important
+
+.results-item
+  &__head
+    display: flex
+    &-img
+      position: absolute
+      right: 14px
+      display: none
+      align-items: center
+    &-text
+      color: #323232
+      font-size: 16px
+      margin: 0 22px 0 13px
+  &__body
+    display: flex
+    flex-wrap: wrap
+    margin-top: 16px
+    &-img
+      background: #c4c4c4
+      height: 111px
+      width: 98px
+      margin-left: 16px
+      overflow: hidden
+      img
+        height: 100%
+        width: auto
+        
+    &-date
+      margin-left: 16px
+    &-number
+      display: flex
+      margin-top: 14px
+
+.body-date
+  &__birth-age
+    display: flex
+  &__passport
+    display: flex
+    flex-direction: column
+    margin-top: 5px
+    &-name
+      color: #ADADAD
+      font-size: 12px
+    
+
+.birth-age
+  &__birth
+    display: none
+    flex-direction: column
+    &-name
+      color: #ADADAD
+      font-size: 12px
+  &__age
+    display: flex
+    flex-direction: column
+    // margin-left: 13px
+    &-name
+      color: #ADADAD
+      font-size: 12px
+
+.body-number
+  &__OMC
+    display: flex
+    flex-direction: column
+    margin-left: 16px
+    &-name
+      color: #ADADAD
+      font-size: 12px
+    &-value
+  &__last
+    display: flex
+    flex-direction: column
+    margin-left: 14px
+    &-name
+      color: #ADADAD
+      font-size: 12px
+
+
